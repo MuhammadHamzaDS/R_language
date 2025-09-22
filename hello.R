@@ -6,3 +6,8 @@ y <- 5
 # Print values
 print(x)
 print(y)
+# Basic plot
+x <- 1:10
+y <- x^2
+plot(x, y, type="b", col="blue", main="Test Plot: y = x^2")
+
